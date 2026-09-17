@@ -40,6 +40,14 @@ La idea es que pueda decir:
 
 # Probalo
 
+## Probar PsychLab rápido
+
+1. Descargá `psychlab-skill-v1.1.zip`.
+2. En ChatGPT: Plugins → Skills → Create → Upload from your computer.
+3. Subí el ZIP.
+4. Probalo con cualquier caso.
+
+
 Estas son algunas preguntas con las que lo estoy rompiendo.
 
 ## ¿Patrón real o historia linda?
