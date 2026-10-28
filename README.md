@@ -429,6 +429,17 @@ Esta versión conserva el razonamiento crítico de v1.1 y añade:
 
 No subir conversaciones, datos clínicos personales ni transcripciones a un repositorio público. Los ejemplos del proyecto son ficticios.
 
+## Construcción del paquete
+
+El ZIP v1.2 se genera desde los archivos fuente mediante un script reproducible:
+
+```bash
+python scripts/build_skill.py
+python scripts/build_skill.py --verify
+```
+
+El segundo comando comprueba integridad, correspondencia con las fuentes y presencia de los casos de regresión. **No evalúa clínicamente al modelo:** para eso hay que ejecutar los casos con un asistente instalado y revisar sus respuestas.
+
 ## Verificación mínima de regresión
 
 Usar los casos 26–32 de `03_ADVERSARIAL_EXAMPLES.md` junto con los casos cotidianos 1–25. Debe:
